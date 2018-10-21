@@ -6,8 +6,16 @@ I'm trying to create a PowerShell binary cmdlet library that uses SimpleInjector
 1. Run the solution.
 1. In each window, run `Test-JsonDotNetDependency` then `Test-SimpleInjectorDependency`. Both succeed using PowerShell 5, but the latter fails with PowerShell Core and results in a `FileNotFoundException` as shown below.
 
-![error]()
+![error](https://raw.githubusercontent.com/refactorsaurusrex/SimpleInjectorPowerShellCoreIssue/master/images/PSCoreError.png)
 
 ## Notes
 
-There are two projects in the solution, both of which should be set as 'startup projects'. The first, `MyNetFrameworkProject`, targets .NET 4.6.1, uses the `Microsoft.PowerShell.5.ReferenceAssemblies` package, and runs `powershell.exe`. The
+- There are two projects in the solution, both of which should be set as 'startup projects'.
+    1. `MyNetFrameworkProject` targets .NET 4.6.1, uses the `Microsoft.PowerShell.5.ReferenceAssemblies` package, and runs `powershell.exe`.
+    1. `MyNetStandardProject` targets .NET Standard 2.0, uses the `PowerShellStandard.Library` (v5.1.0-RC1), and runs `pwsh.exe`.
+- I included the json.net test only to demonstrate that packages other than SimpleInjector seem to work as expected. 
+
+# The Question
+I can "make" the `MyNetStandardProject` work correctly if I manually copy the SimpleInjector.dll into the `bin\Debug\netstandard2.0`... but that really shouldn't be necessary. I really want to understand what I'm doing wrong that's causing the `FileNotFoundException`.
+
+Thanks in advance to any/all help!
