@@ -34,7 +34,7 @@ public class TestJsonDotNetDependencyCmdlet : PSCmdlet
 
 - There are two projects in the solution, both of which should be set as 'startup projects'.
     1. `MyNetFrameworkProject` targets .NET 4.6.1, uses the `Microsoft.PowerShell.5.ReferenceAssemblies` package, and runs `powershell.exe`.
-    1. `MyNetStandardProject` targets .NET Standard 2.0, uses the `PowerShellStandard.Library` (v5.1.0-RC1), and runs `pwsh.exe`.
+    1. `MyNetStandardProject` targets .NET Standard 2.0, uses the `PowerShellStandard.Library` package (v5.1.0-RC1), and runs `pwsh.exe`.
 - I included the json.net test only to demonstrate that packages other than SimpleInjector seem to work as expected. 
 
 # The Question
