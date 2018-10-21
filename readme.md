@@ -6,6 +6,28 @@ I'm trying to create a PowerShell Core binary cmdlet library that uses SimpleInj
 1. Run the solution. (Both projects should be set as 'StartUp Projects', so two PowerShell windows should open.)
 1. In each window, run `Test-JsonDotNetDependency` then `Test-SimpleInjectorDependency`. Both succeed using PowerShell 5, but the latter fails with PowerShell Core, resulting in a `FileNotFoundException` as shown below.
 
+```
+[Cmdlet(VerbsDiagnostic.Test, "SimpleInjectorDependency")]
+public class TestSimpleInjectorDependencyCmdlet : PSCmdlet
+{
+    protected override void ProcessRecord()
+    {
+        var container = new Container();
+        WriteObject("Success!");
+    }
+}
+
+[Cmdlet(VerbsDiagnostic.Test, "JsonDotNetDependency")]
+public class TestJsonDotNetDependencyCmdlet : PSCmdlet
+{
+    protected override void ProcessRecord()
+    {
+        var j = new JObject();
+        WriteObject("Success!");
+    }
+}
+```
+
 ![error](https://raw.githubusercontent.com/refactorsaurusrex/SimpleInjectorPowerShellCoreIssue/master/images/PSCoreError.png)
 
 ## Notes
