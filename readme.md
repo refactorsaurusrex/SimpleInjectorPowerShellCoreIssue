@@ -38,6 +38,6 @@ public class TestJsonDotNetDependencyCmdlet : PSCmdlet
 - I included the json.net test only to demonstrate that packages other than SimpleInjector seem to work as expected. 
 
 # The Question
-I can "make" the `MyNetStandardProject` work correctly if I manually copy the SimpleInjector.dll into the `bin\Debug\netstandard2.0`... but that really shouldn't be necessary. I really want to understand what I'm doing wrong that's causing the `FileNotFoundException`.
+I can "make" the `MyNetStandardProject` work correctly if I manually copy the SimpleInjector.dll into the `bin\Debug\netstandard2.0` directory... but that really shouldn't be necessary. I really want to understand what I'm doing wrong that's causing the `FileNotFoundException`.
 
 Thanks in advance to any/all help!
