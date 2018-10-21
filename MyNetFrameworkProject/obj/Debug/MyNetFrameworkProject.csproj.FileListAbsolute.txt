@@ -1,0 +1,10 @@
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetFrameworkProject\bin\Debug\MyNetFrameworkProject.dll
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetFrameworkProject\bin\Debug\MyNetFrameworkProject.pdb
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetFrameworkProject\bin\Debug\System.Management.Automation.dll
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetFrameworkProject\bin\Debug\SimpleInjector.dll
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetFrameworkProject\obj\Debug\MyNetFrameworkProject.csprojAssemblyReference.cache
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetFrameworkProject\obj\Debug\MyNetFrameworkProject.csproj.CoreCompileInputs.cache
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetFrameworkProject\obj\Debug\MyNetFrameworkProject.csproj.CopyComplete
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetFrameworkProject\obj\Debug\MyNetFrameworkProject.dll
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetFrameworkProject\obj\Debug\MyNetFrameworkProject.pdb
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetFrameworkProject\bin\Debug\Newtonsoft.Json.dll

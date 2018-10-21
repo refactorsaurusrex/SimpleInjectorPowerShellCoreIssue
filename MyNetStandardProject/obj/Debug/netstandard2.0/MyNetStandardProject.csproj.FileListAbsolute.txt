@@ -1,0 +1,9 @@
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetStandardProject\bin\Debug\netstandard2.0\MyNetStandardProject.deps.json
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetStandardProject\bin\Debug\netstandard2.0\MyNetStandardProject.dll
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetStandardProject\obj\Debug\netstandard2.0\MyNetStandardProject.csprojAssemblyReference.cache
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetStandardProject\obj\Debug\netstandard2.0\MyNetStandardProject.csproj.CoreCompileInputs.cache
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetStandardProject\obj\Debug\netstandard2.0\MyNetStandardProject.AssemblyInfoInputs.cache
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetStandardProject\obj\Debug\netstandard2.0\MyNetStandardProject.AssemblyInfo.cs
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetStandardProject\bin\Debug\netstandard2.0\MyNetStandardProject.pdb
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetStandardProject\obj\Debug\netstandard2.0\MyNetStandardProject.dll
+C:\Users\Animal\Documents\Visual Studio 2017\Projects\SimpleInjectorPowerShellCoreIssue\MyNetStandardProject\obj\Debug\netstandard2.0\MyNetStandardProject.pdb

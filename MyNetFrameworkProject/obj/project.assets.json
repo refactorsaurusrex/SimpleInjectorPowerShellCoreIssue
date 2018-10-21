@@ -1,0 +1,278 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Microsoft.PowerShell.5.ReferenceAssemblies/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net4/System.Management.Automation.dll": {}
+        },
+        "runtime": {
+          "lib/net4/System.Management.Automation.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SimpleInjector/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SimpleInjector.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SimpleInjector.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "Microsoft.PowerShell.5.ReferenceAssemblies/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net4/System.Management.Automation.dll": {}
+        },
+        "runtime": {
+          "lib/net4/System.Management.Automation.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SimpleInjector/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SimpleInjector.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SimpleInjector.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "Microsoft.PowerShell.5.ReferenceAssemblies/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net4/System.Management.Automation.dll": {}
+        },
+        "runtime": {
+          "lib/net4/System.Management.Automation.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SimpleInjector/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SimpleInjector.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SimpleInjector.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "Microsoft.PowerShell.5.ReferenceAssemblies/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net4/System.Management.Automation.dll": {}
+        },
+        "runtime": {
+          "lib/net4/System.Management.Automation.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "SimpleInjector/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SimpleInjector.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SimpleInjector.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.PowerShell.5.ReferenceAssemblies/1.1.0": {
+      "sha512": "EE87t3aUXlO0Rjq83Ti8z1g4wwsWnB4W+pOn84i3QWzUOOuP5gZg8n4Y8XTZ7GkxGcoSR6w/d/kBJTJbc3VZPQ==",
+      "type": "package",
+      "path": "microsoft.powershell.5.referenceassemblies/1.1.0",
+      "files": [
+        "lib/net4/Microsoft.Management.Infrastructure.dll",
+        "lib/net4/Microsoft.PowerShell.Activities.dll",
+        "lib/net4/Microsoft.PowerShell.Activities.xml",
+        "lib/net4/Microsoft.PowerShell.Commands.Diagnostics.dll",
+        "lib/net4/Microsoft.PowerShell.ConsoleHost.dll",
+        "lib/net4/Microsoft.PowerShell.ConsoleHost.xml",
+        "lib/net4/Microsoft.PowerShell.Core.Activities.dll",
+        "lib/net4/Microsoft.PowerShell.Core.Activities.xml",
+        "lib/net4/Microsoft.PowerShell.Diagnostics.Activities.dll",
+        "lib/net4/Microsoft.PowerShell.Diagnostics.Activities.xml",
+        "lib/net4/Microsoft.PowerShell.Editor.dll",
+        "lib/net4/Microsoft.PowerShell.GPowerShell.dll",
+        "lib/net4/Microsoft.PowerShell.GPowerShell.xml",
+        "lib/net4/Microsoft.PowerShell.GraphicalHost.dll",
+        "lib/net4/Microsoft.PowerShell.GraphicalHost.xml",
+        "lib/net4/Microsoft.PowerShell.ISECommon.dll",
+        "lib/net4/Microsoft.PowerShell.ISECommon.xml",
+        "lib/net4/Microsoft.PowerShell.Management.Activities.dll",
+        "lib/net4/Microsoft.PowerShell.Management.Activities.xml",
+        "lib/net4/Microsoft.PowerShell.PSReadLine.dll",
+        "lib/net4/Microsoft.PowerShell.PackageManagement.dll",
+        "lib/net4/Microsoft.PowerShell.Security.Activities.dll",
+        "lib/net4/Microsoft.PowerShell.Security.Activities.xml",
+        "lib/net4/Microsoft.PowerShell.Security.dll",
+        "lib/net4/Microsoft.PowerShell.Security.xml",
+        "lib/net4/Microsoft.PowerShell.Utility.Activities.dll",
+        "lib/net4/Microsoft.PowerShell.Utility.Activities.xml",
+        "lib/net4/Microsoft.PowerShell.Workflow.ServiceCore.xml",
+        "lib/net4/Microsoft.Powershell.Workflow.ServiceCore.dll",
+        "lib/net4/System.Management.Automation.dll",
+        "lib/net4/System.Management.Automation.xml",
+        "microsoft.powershell.5.referenceassemblies.1.1.0.nupkg.sha512",
+        "microsoft.powershell.5.referenceassemblies.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "SimpleInjector/4.3.0": {
+      "sha512": "qA2sd1Rdt7x0OneTsg6iNoNt9utTTqaxcUzANMYocWchzI2JDGL0iRMD+ek7WjC89UxiTK8u2Zm5fswR8tyhhA==",
+      "type": "package",
+      "path": "simpleinjector/4.3.0",
+      "files": [
+        "lib/net40/SimpleInjector.dll",
+        "lib/net40/SimpleInjector.xml",
+        "lib/net45/SimpleInjector.dll",
+        "lib/net45/SimpleInjector.xml",
+        "lib/netstandard1.0/SimpleInjector.dll",
+        "lib/netstandard1.0/SimpleInjector.xml",
+        "lib/netstandard1.3/SimpleInjector.dll",
+        "lib/netstandard1.3/SimpleInjector.xml",
+        "simpleinjector.4.3.0.nupkg.sha512",
+        "simpleinjector.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Microsoft.PowerShell.5.ReferenceAssemblies >= 1.1.0",
+      "Newtonsoft.Json >= 11.0.2",
+      "SimpleInjector >= 4.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Animal\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Animal\\Documents\\Visual Studio 2017\\Projects\\SimpleInjectorPowerShellCoreIssue\\MyNetFrameworkProject\\MyNetFrameworkProject.csproj",
+      "projectName": "MyNetFrameworkProject",
+      "projectPath": "C:\\Users\\Animal\\Documents\\Visual Studio 2017\\Projects\\SimpleInjectorPowerShellCoreIssue\\MyNetFrameworkProject\\MyNetFrameworkProject.csproj",
+      "packagesPath": "C:\\Users\\Animal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Animal\\Documents\\Visual Studio 2017\\Projects\\SimpleInjectorPowerShellCoreIssue\\MyNetFrameworkProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Animal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Repos\\PSBase\\src\\PSBase\\bin\\Debug": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://ci.appveyor.com/nuget/fluentconsole-m3ombfdioq6v": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Microsoft.PowerShell.5.ReferenceAssemblies": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.2, )"
+          },
+          "SimpleInjector": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
