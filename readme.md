@@ -1,10 +1,10 @@
 # What is this?
-I'm trying to create a PowerShell binary cmdlet library that uses SimpleInjector, but am encountering a problem where the SimpleInjector dll cannot be found. This repo demonstrates the problem.
+I'm trying to create a PowerShell Core binary cmdlet library that uses SimpleInjector, but am encountering a problem where the SimpleInjector dll cannot be found. This repo demonstrates the problem.
 
 # How to reproduce the problem
 1. Clone this repo and open the solution in Visual Studio.
-1. Run the solution.
-1. In each window, run `Test-JsonDotNetDependency` then `Test-SimpleInjectorDependency`. Both succeed using PowerShell 5, but the latter fails with PowerShell Core and results in a `FileNotFoundException` as shown below.
+1. Run the solution. (Both projects should be set as 'StartUp Projects', so two PowerShell windows should open.)
+1. In each window, run `Test-JsonDotNetDependency` then `Test-SimpleInjectorDependency`. Both succeed using PowerShell 5, but the latter fails with PowerShell Core, resulting in a `FileNotFoundException` as shown below.
 
 ![error](https://raw.githubusercontent.com/refactorsaurusrex/SimpleInjectorPowerShellCoreIssue/master/images/PSCoreError.png)
 
